@@ -1,0 +1,81 @@
+@keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+body{
+    background-image: url("https://github.com/amitmungare/Movie-DataBase/blob/master/assets/images/bgimage.png?raw=true");
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.cal{
+    background: rgba(32, 125, 247, 0.6);
+    border-radius: 20px;
+    padding: 30px;
+}
+
+
+.display{
+    display: flex;
+    justify-content:center;
+    margin: 30px 0;
+}
+
+form .display input{
+    text-align: right;
+    flex:1;
+    font-size: 40px;
+    box-shadow:10px;
+}
+
+
+ .cal form input{
+    border: 0;
+    outline: 0;
+    width: 70px;
+    height: 60px;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px 0 rgba(88, 39, 39, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background: rgba(255, 255, 255, 0.9);
+    font-size: 25px;
+    color:rgb(10, 17, 17);
+    cursor:pointer;
+    margin: 7px;
+} 
+
+form input.equal{
+    width: 130px;
+}
+
+.animate-charcter{
+    position: relative;
+    text-transform: uppercase;
+    background-image: linear-gradient(-225deg,#231557 0%,#44107a 29%,#ff1361 67%,#fff800 100%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+    font-size: 40px;
+  }
+
