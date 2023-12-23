@@ -13,7 +13,7 @@
 
 ## Features
    * Addition.
-   * Subtractionk.
+   * Subtraction.
    * Multiplication.
    * Division.
      
